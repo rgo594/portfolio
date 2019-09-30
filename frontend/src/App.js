@@ -8,17 +8,29 @@ const cinStyle = {
   fontFamily: 'Cinzel'
 }
 
+
 function App() {
+
+  const mybutton = document.getElementById("myBtn");
+
+  const scrollFunction = () => {
+    window.scroll({
+    top: 100,
+    left: 100,
+    behavior: 'smooth'
+    })
+  }
   return (
     <div className="App">
-      <header>
+      <header style={{height:"1000vh"}}>
         <p>
           Robert O'Gara
         </p>
         <Button>
-          To homepage
+
         </Button>
       </header>
+      <button onClick={scrollFunction} id="myBtn" title="Go to top">Top</button>
     </div>
   );
 }
