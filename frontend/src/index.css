@@ -20,3 +20,8 @@ code {
   width: 300px;
   border: 3px solid #73AD21;
 }
+
+.card-img {
+  max-height: 150px;
+  max-width: 150px;
+}
