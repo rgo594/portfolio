@@ -5,6 +5,7 @@ import ProjectCard from '../src/ProjectCard.js'
 import { Button } from 'semantic-ui-react'
 import { Card, Icon, Image } from 'semantic-ui-react'
 
+
 const cinStyle = {
   fontFamily: 'Cinzel'
 }
@@ -30,7 +31,7 @@ function App() {
       </header>
       <div class="top-page">
         <div class="name">
-          <h1>
+          <h1 class='font-a'>
             Robert O'Gara
           </h1>
           <button class="button" onClick={scrollFunction} id="myBtn" title="Projects">&nbsp;<Icon onClick={scrollFunction} name='angle down' /></button>

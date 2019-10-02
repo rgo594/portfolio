@@ -48,9 +48,9 @@ class ProjectCard extends Component {
           <div class="column">
           {this.gitCard(
             "https://github.com/rgo594/Movie-Reviewer",
-            'https://pixel.nymag.com/imgs/fashion/daily/2018/11/02/2-empty-movie-theatre.w700.h700.jpg',
+            'https://media.timeout.com/images/101600111/630/472/image.jpg',
             'Movie Reviewer',
-            'Website designed for users to create movie reviews. Users can leave a score from 1 to 10 and then that score will be factored into the average score displayed at the top of each movie page. ruby on rails backend, react front end, bootstrap and custom CSS for styling.'
+            'Website designed for users to create movie reviews. Users can leave a score from 1 to 10. ruby on rails backend, react front end, bootstrap and CSS for styling.'
           )}
           </div>
           <div class="column">{

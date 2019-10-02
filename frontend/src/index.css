@@ -18,8 +18,13 @@ code {
   right: 50%;
   left: 42%;
   width: 300px;
+  color: white;
 }
 
+.font-a {
+  font-family: 'Libre Baskerville', sans-serif;
+  font-size: 40px;
+}
 .card-img {
   max-height: 150px;
   max-width: 150px;
@@ -28,11 +33,11 @@ code {
 .top-page {
   width: 1600px;
   height: 800px;
-  background-color: #DC143C;
+  background-color: purple;
 }
 
 .row {
   position: absolute;
-  top: 10px;
+  top: 40px;
   left: 30px;
 }
