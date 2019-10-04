@@ -14,10 +14,11 @@ code {
 
 .name {
   position: absolute;
-  bottom: 70%;
+  bottom: 40%;
   right: 50%;
-  left: 42%;
-  width: 300px;
+  left: 29%;
+  width: 700px;
+  height: 400px;
   color: white;
 }
 
@@ -26,13 +27,12 @@ code {
   font-size: 40px;
 }
 .card-img {
-  max-height: 150px;
-  max-width: 150px;
+  max-height: 120px;
 }
 
 .top-page {
   width: 1600px;
-  height: 800px;
+  height: 900px;
   background-color: purple;
 }
 

@@ -21,7 +21,7 @@ function App() {
 
   const scrollFunction = () => {
     window.scroll({
-    top: 800,
+    top: 900,
     behavior: 'smooth'
     })
   }
@@ -34,7 +34,7 @@ function App() {
           <h1 class='font-a'>
             Robert O'Gara
           </h1>
-          <button class="button" onClick={scrollFunction} id="myBtn" title="Projects">&nbsp;<Icon onClick={scrollFunction} name='angle down' /></button>
+          <i onClick={scrollFunction} class="chevron circle down big icon "></i>
         </div>
       </div>
       <div>
