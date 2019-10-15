@@ -14,7 +14,7 @@ code {
 
 .name {
   position: absolute;
-  bottom: 40%;
+  bottom: 50%;
   right: 50%;
   left: 35%;
   width: 700px;
@@ -24,14 +24,14 @@ code {
 
 .icon-position {
   position: absolute;
-  bottom: 35%;
+  bottom: 40%;
   right: 50%;
-  left: 49.5%;
+  left: 51.5%;
   color: white;
 }
 
 .font-a {
-  font-family: 'Libre Baskerville', sans-serif;
+  font-family: 'Montserrat Subrayada', sans-serif;
   font-size: 60px;
 }
 .card-img {
@@ -54,7 +54,7 @@ code {
 }
 
 i:hover {
-  animation: shadow-pulse 1s infinite;
+  color: DarkGrey;
 }
 
 .area{
@@ -159,6 +159,9 @@ i:hover {
     height: 150px;
     animation-delay: 0s;
     animation-duration: 11s;
+}
+.about-position {
+  bottom: 70%;
 }
 
 @keyframes animate {

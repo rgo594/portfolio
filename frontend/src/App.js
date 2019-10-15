@@ -44,12 +44,12 @@ function App() {
                     <li></li>
                     <li></li>
                     <li></li>
-                    <li></li>
+                    <li>^.^</li>
           </ul>
         </div>
       <div>
         <ProjectCard contester={"https://github.com/rgo594/Contester"}/>
-        <AboutMe />
+        <AboutMe class="about-position"/>
       </div>
     </div>
   );
