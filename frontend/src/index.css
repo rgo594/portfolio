@@ -47,9 +47,20 @@ code {
   overflow: hidden;
 }
 
+.about-position {
+
+  height: 730px;
+  background-color: #dedef7;
+}
+
+.page-height {
+  height: 1600px;
+}
+
 .row {
   position: absolute;
   top: 40px;
+  height: 670px;
   left: 30px;
 }
 
@@ -159,9 +170,6 @@ i:hover {
     height: 150px;
     animation-delay: 0s;
     animation-duration: 11s;
-}
-.about-position {
-  bottom: 70%;
 }
 
 @keyframes animate {

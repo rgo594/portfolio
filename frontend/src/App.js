@@ -21,12 +21,12 @@ function App() {
 
   const scrollFunction = () => {
     window.scroll({
-    top: 750,
+    top: 730,
     behavior: 'smooth'
     })
   }
   return (
-    <div>
+    <div class="page-height">
       <div class="area" >
           <ul class="circles">
             <div class="name">
@@ -49,8 +49,16 @@ function App() {
         </div>
       <div>
         <ProjectCard contester={"https://github.com/rgo594/Contester"}/>
-        <AboutMe class="about-position"/>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+              <AboutMe />
       </div>
+
+
+
     </div>
   );
 }
