@@ -22,9 +22,9 @@ code {
   color: white;
 }
 
-.icon-position {
+.chev-position {
   position: absolute;
-  bottom: 40%;
+  bottom: 35%;
   right: 50%;
   left: 51.5%;
   color: white;
@@ -67,6 +67,30 @@ code {
 .projects {
   font-family: 'Exo 2', sans-serif;
   font-size: 60px;
+}
+
+.linkedin {
+  color: white;
+  position: absolute;
+  bottom: 46%;
+  right: 52%;
+  left: 46%;
+}
+
+.medium {
+  color: white;
+  position: absolute;
+  bottom: 46%;
+  right: 50%;
+  left: 51.5%;
+}
+
+.github {
+  color: white;
+  position: absolute;
+  bottom: 46%;
+  right: 45%;
+  left: 57%;
 }
 
 i:hover {

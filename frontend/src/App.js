@@ -34,7 +34,10 @@ function App() {
                 Robert O'Gara
               </h1>
             </div>
-            <i onClick={scrollFunction} class="icon-position chevron circle down big icon "></i>
+            <i onClick={scrollFunction} class="chev-position chevron circle down big icon"></i>
+            <i class="github big icon"></i>
+            <i class="medium big icon"></i>
+            <i class="linkedin big icon"></i>
                     <li></li>
                     <li></li>
                     <li></li>
