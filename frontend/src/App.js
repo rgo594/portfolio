@@ -49,12 +49,12 @@ function App() {
         </div>
       <div>
         <ProjectCard contester={"https://github.com/rgo594/Contester"}/>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-              <AboutMe />
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+        <AboutMe />
       </div>
 
 
