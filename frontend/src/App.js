@@ -35,9 +35,9 @@ function App() {
               </h1>
             </div>
             <i onClick={scrollFunction} class="chev-position chevron circle down big icon"></i>
-            <i class="github big icon"></i>
-            <i class="medium big icon"></i>
-            <i class="linkedin big icon"></i>
+            <i onClick={() => cardClickHandler("https://github.com/rgo594")} class="github big icon"></i>
+            <i onClick={() => cardClickHandler("https://medium.com/@rgo594")} class="medium big icon"></i>
+            <i onClick={() => cardClickHandler("https://www.linkedin.com/in/robogara/")} class="linkedin big icon"></i>
                     <li></li>
                     <li></li>
                     <li></li>
